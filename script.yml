@@ -1,0 +1,11 @@
+---
+  -
+     name: To create my name
+     hosts: host1
+     remote_user: root
+     vars:
+       my_name: Sravani
+     tasks:
+
+       -debug:
+        msg: My name is {{ my_name }}
