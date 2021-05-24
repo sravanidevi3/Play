@@ -1,9 +1,9 @@
--
+-    
+     name: To print name
      hosts: host1
      remote_user: root
      vars:
-       my_name: Sravani
+          my_name: Sravani
      tasks:
-
-       -debug:
+       - debug:
              msg: "My name is {{ my_name }}"
