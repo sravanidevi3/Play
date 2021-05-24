@@ -1,6 +1,6 @@
 
   -
-     name : To create my name
+     name : To create name
      hosts : host1
      remote_user : root
      vars :
@@ -8,4 +8,4 @@
      tasks :
 
        -debug :
-             msg : My name is {{ my_name }}
+             msg : "My name is {{ my_name }}"
